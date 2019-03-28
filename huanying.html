@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>无比网络</title>
+    <style type="text/css">
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+        ul ,h3 ,h4,p li{
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        .box1 {
+            height: 32px;
+            background: #007ae1;
+        }
+        .box1 p {
+            height: 32px;
+            width: 1001px;
+            margin: 0 auto;
+        }
+        .box1 p span {
+            display: block;
+            width: 310px;
+            height: 32px;
+            font-size: 12px;
+            font-family: 宋体;
+            line-height: 32px;
+            text-align: center;
+            color: #ffffff;
+            float: left;
+        }
+        .box1 p a {
+            display: block;
+            float: right;
+            width: 78px;
+            height: 32px;
+            text-align: center;
+            line-height: 32px;
+            font-size: 12px;
+            font-family: 宋体;
+            text-decoration: none;
+            color: #ffffff;
+            margin-right: 7px;
+        }
+        .box1 p :last-child {
+            margin-right: 0px;
+        }
+        .box2 {
+            height: 98px;
+            width: 1001px;
+            margin: 0 auto;
+        }
+        .box2 p {
+            width: 167px;
+            height: 56px;
+            background: url("logo.jpg") no-repeat;
+            background-size: cover;
+            margin: 22px 57px 20px 26px;
+            float: left;
+        }
+        .box2 ul {
+            height: 98px;
+            width: 750px;
+            float: left;
+        }
+        .box2 ul li {
+            width: 126px;
+            height: 98px;
+            text-align: center;
+            line-height: 98px;
+            float: left;
+        }
+        .box2 ul li a {
+            display: block;
+            width: 126px;
+            height: 29px;
+            text-align: center;
+            line-height: 29px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #494949;
+            margin: 32px 0 32px 0;
+        }
+        .box2 ul li:last-child {
+            margin-right: -6px;
+        }
+        .box2 ul li a:hover {
+            border-bottom: 3px #007ae1 solid;
+            color: #007ae1;
+        }
+        .box3 {
+            height: 514px;
+            background: url("beijing_02.png") no-repeat;
+            background-size: cover;
+        }
+        .boxinner {
+            height: 350px;
+            width: 1001px;
+            margin: 0 auto;
+        }
+        .box3 p {
+            width: 592px;
+            height: 80px;
+            color: #ff4d4d;
+            font-size: 65px;
+            text-align: center;
+            line-height: 80px;
+            margin-top: 0px;
+            margin-left: 410px;
+            padding-top: 168px;
+            margin-bottom: 22px;
+        }
+        .box3 p  span{
+            font-size: 88px;
+            line-height: 80px;
+        }
+        .box3 ul{
+            width: 480px;
+            height: 224px;
+            margin-left: 522px;
+        }
+        .box3 ul li {
+            font-size: 18px;
+            font-family: 宋体;
+            line-height: 32px;
+            color: #eef7fc;
+            overflow: hidden;
+        }
+        .boxinner1 {
+            width: 222px;
+            height: 5px;
+            margin:0 auto;
+        }
+        .box3 .boxinner1 em{
+            display: block;
+            width: 61px;
+            height: 5px;
+            background: #d8d8d8;
+            float: left;
+            margin-right: 19px;
+        }
+        .box3 .boxinner1 em:last-child{
+            margin-right: 0px;
+        }
+        .box3 .boxinner1 em:hover{
+            background: #ff0000;
+        }
+        .box4 {
+            height: 498px;
+            background: url("beijing2_02.png") no-repeat;
+            background-size: cover;
+        }
+        .box4 h3 {
+            width: 258px;
+            height: 88px;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 88px;
+            color: #ffffff;
+        }
+        .box4 h3 a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+        .box4 h3:after {
+            content: url("LOLO.png");
+            float: right;
+            line-height: 88px;
+            padding-top: 5px;
+        }
+        .box4 h3 span {
+            font-size: 18px;
+        }
+        .box4 h4 {
+            width: 288px;
+            height: 58px;
+            font-weight: normal;
+            margin: 0 auto;
+            font-size: 24px;
+            line-height: 58px;
+            color: #ffffff;
+            overflow: hidden;
+        }
+        .box4 p {
+            width: 902px;
+            margin: 0 auto;
+            font-size: 18px;
+            color: #ffffff;
+            line-height: 38px;
+            text-indent: 2em;
+            overflow: hidden;
+        }
+        .box4 p:first-child {
+            margin-top: 7px;
+        }
+        .box5 {
+            height: 552px;
+            background: url("neijing3_02.png") no-repeat;
+            background-size: cover;
+        }
+        .box5 boxinner {
+            height: 514px;
+            width: 1001px;
+            margin: 0 auto;
+        }
+        .box5 h3 {
+            width: 288px;
+            height: 100px;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 100px;
+            color: #ffffff;
+        }
+        .box5  h3 a {
+            text-decoration: none;
+            color: #ffffff;
+        }
+        .box5 h3:after {
+            content: url("LOLO.png");
+            float: right;
+            line-height: 100px;
+            padding-top: 8px;
+        }
+        .box5 h3 span {
+            font-size: 18px;
+        }
+        .box5 .boxinner1 {
+            width: 1001px;
+            height: 258px;
+            margin: 0 auto;
+        }
+        .boxx {
+            width: 170px;
+            height: 186px;
+            margin: 35px 0 35px 26px;
+            background: #4db5f7;
+            float: left;
+        }
+        .boxx:first-child {
+            margin-left: 20px;
+            margin-top: 44px;
+        }
+        .img {
+            width: 96px;
+            height: 96px;
+            border-radius: 48px;
+            background: url("hkald3.jpg") no-repeat;
+            background-size: cover;
+            margin: 26px 39px 0 39px;
+        }
+        .box5 .boxinner1 p {
+            width: 170px;
+            height: 64px;
+            text-align: center;
+            line-height: 64px;
+            font-size: 20px;
+            color: #fff;
+            margin: 0px;
+        }
+        .border {
+            width: 1001px;
+            height: 130px;
+            background: #ffffff;
+        }
+        .box5 .border h4 {
+            width: 160px;
+            height: 39px;
+            font-size: 32px;
+            line-height: 39px;
+            margin-left:29px;
+            color: #585858;
+            font-weight: normal;
+            padding-top: 18px;
+        }
+        .box5 .border p{
+            height: 73px;
+            width: 660px;
+            font-size: 16px;
+            line-height: 30px;
+            color: #9a9a9a;
+            float: left;
+            margin-left: 32px;
+            margin-top: 0px;
+            overflow: hidden;
+        }
+        .border a {
+            display: block;
+            text-decoration: none;
+            float: right;
+            width: 190px;
+            height: 50px;
+            background: #328ad7;
+            border-radius: 10px;
+            color: #ffffff;
+            font-size: 21px;
+            line-height: 50px;
+            margin-right: 40px;
+        }
+        .box5 .border a img {
+            float: left;
+            margin: 12px 14px 12px 27px;
+        }
+        .box6 {
+            height: 726px;
+            background: url("anli_02.png") no-repeat;
+            background-size: cover;
+        }
+        .boxinner6 {
+            width: 1003px;
+            height: 726px;
+            margin: 0 auto;
+        }
+        .anli {
+            width: 314px;
+            height: 126px;
+            overflow: hidden;
+        }
+        .anli a {
+            display: block;
+            font-size: 30px;
+            line-height: 126px;
+            margin-left: 10px;
+            color: #ffffff;
+            text-decoration: none;
+            float: left;
+        }
+        .anli a span {
+            font-size: 18px;
+        }
+        .anli a span img {
+            display: block;
+            float: right;
+            margin-top: 46px;
+            margin-left: 42px;
+        }
+         .box6 .boxinner6 .tubox {
+             width: 309px;
+             height: 290px;
+             float: left;
+             margin-right: 38px;
+        }
+        .boxinner6 .tubox:nth-child(4){
+            margin-right: 0px;
+        }
+        .boxinner6 .tubox:last-child {
+            margin-right: 0px;
+        }
+        .boxinner6 .tubox img {
+            width: 309px;
+            height: 214px;
+            margin-top: 13px;
+            background: url("aierlan_01.png") no-repeat;
+            background-size: cover;
+        }
+        .boxinner6 .tubox p {
+            width: 309px;
+            height: 52px;
+            font-size: 22px;
+            color: #ffffff;
+            text-align: center;
+            line-height: 52px;
+            margin-bottom: 11px;
+            margin-top: 0px;
+        }
+        .box7 {
+            height: 514px;
+            background: url("xinwen_02.png") no-repeat;
+            background-size: cover;
+        }
+        .boxinner7 {
+            height: 514px;
+            width: 1001px;
+            margin: 0 auto;
+            border: 1px transparent solid;
+        }
+        .xinwen {
+            width: 312px;
+            height: 62px;
+            margin-top: 16px;
+            overflow: hidden;
+        }
+        .xinwen a {
+            display: block;
+            font-size: 30px;
+            line-height: 62px;
+            margin-left: 9px;
+            color: #ffffff;
+            text-decoration: none;
+            float: left;
+        }
+        .xinwen a span {
+            font-size: 18px;
+        }
+        .xinwen img {
+            display: block;
+            float: right;
+            margin-top: 14px;
+            margin-bottom: 12px;
+            margin-left: 28px;
+        }
+        .hangye {
+            width: 500px;
+            height: 438px;
+            float: left;
+            overflow: hidden;
+        }
+        .box7  .boxinner7 .hangye ul {
+            width: 500px;
+            height: 63px;
+            font-size: 28px;
+            line-height: 63px;
+            color: #ffffff;
+            float: left;
+            margin-left: 12px;
+        }
+        .hangye b {
+            font-weight: normal;
+            font-size: 14px;
+            font-family: Arial;
+        }
+        .hangye span {
+            display: block;
+            width: 98px;
+            height: 63px;
+            font-size: 16px;
+            line-height: 63px;
+            font-family: Arial;
+            float: right;
+        }
+        .hangye li {
+            height: 30px;
+            width: 500px;
+            float: left;
+            font-size: 16px;
+            line-height: 30px;
+            color: #ffffff;
+            white-space: pre-wrap;
+            overflow: hidden;
+        }
+        .box8 {
+            height: 220px;
+            background: #eeeeee;
+        }
+        .boxinner8 {
+            height: 220px;
+            width: 1001px;
+            margin: 0 auto;
+            border: 1px transparent solid;
+        }
+        .box8 .boxinner8 .liang {
+            width: 123px;
+            height: 23px;
+            margin: 41px 7px 23px 16px;
+        }
+        .box8 .boxinner8 p {
+            width: 21px;
+            height: 21px;
+            background: url("fangkuai.png") no-repeat;
+            background-size: cover;
+            margin-bottom: 2px;
+        }
+        .box8 .boxinner8 p span {
+            display: block;
+            width: 96px;
+            height: 23px;
+            font-size: 24px;
+            line-height: 23px;
+            color: #027cc5;
+            margin-left: 28px;
+        }
+        .box8 .boxinner8 img {
+            width: 999px;
+            height: 70px;
+            background: url("hezuo_03.png") no-repeat;
+            /*background-size: cover;*/
+            margin-top:23px;
+            border: 1px #858585 solid;
+            border-radius: 15px;
+        }
+        .box9 {
+            height: 110px;
+            background: #0a98e0;
+        }
+        .boxinner9 {
+            height: 110px;
+            width: 1001px;
+            margin: 0 auto;
+            border: 1px transparent solid;
+        }
+        .box9 p {
+            font-size: 12px;
+            font-family: 宋体;
+            color: #ffffff;
+            width: 702px;
+            height: 28px;
+            line-height: 28px;
+            text-align: center;
+            margin: 0 auto;
+            margin-top:22px;
+            overflow: hidden;
+        }
+        .box9 p:last-child {
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <p>
+            <span>您好，欢迎访问“无比网络技术有限公司”网站！</span>
+            <a href="">收藏本站</a>
+            <a href="">设为首页</a>
+        </p>
+    </div>
+    <div class="box2">
+        <p></p>
+        <ul>
+            <li><a href="javascript:;">网站首页</a></li>
+            <li><a href="javascript:;">公司简介</a></li>
+            <li><a href="javascript:;">产品及服务</a></li>
+            <li><a href="javascript:;">案例展示</a></li>
+            <li><a href="javascript:;">新闻动态</a></li>
+            <li><a href="javascript:;">联系我们</a></li>
+        </ul>
+    </div>
+    <div class="box3">
+        <div class="boxinner">
+            <p>“我们的<span>团队</span>”</p>
+            <ul>
+                <li>热爱生活和精力旺盛的团队</li>
+                <li>敢于承担责任和接受挑战的团队</li>
+                <li>充满机遇和希望的团队</li>
+                <li>互联网联动世界，互联网绘画人生</li>
+                <li>互联网让世界变的平坦</li>
+                <li>互联网让人们的生活更精彩</li>
+            </ul>
+            <div class="boxinner1">
+                <em></em>
+                <em></em>
+                <em></em>
+            </div>
+        </div>
+    </div>
+    <div class="box4">
+        <div class="boxinner">
+            <h3><a href="">关于我们
+                <span>About us</span>
+                </a>
+            </h3>
+            <h4>武汉无比网络科技有限公司</h4>
+            <p>武汉无比网络科技有限公司成立于2013年，是一批专注于网络技术研发及解决网络营销方案的优质团队，我们具有丰富的网络项目实战经验，精通于各行业类网站及系统项目的合计与开发。</p>
+            <p>我们致力于为客户提供基于互联网的高品质技术支持与各类网络业务服务，包括网站开发、电脑及手机端在线软件系统研发、微信公众平台开发、商城系统开发、门户网站开发、网站SEO优化、域名注册、服务器/虚拟主机租售、400电话、短讯群发、短信接口、企业邮箱等。无比网络拥有无与伦比的决心，无与伦比的服务，无与伦比的技术，无与伦比的战略团队。</p>
+            <p>我们秉承“一切为客户考虑”的服务理念，坚持做到让客户没有后顾之忧，我们用心提供最优质的服务及技术支持，只为换来您的无比满意。我们真诚期待与您的合作，我们将共同营造一个美好的互联网时代！</p>
+        </div>
+    </div>
+    <div class="box5">
+        <div class="boxinner">
+            <h3><a href="">服务范围
+                <span>Service area</span>
+                </a>
+            </h3>
+            <div class="boxinner1">
+                <div class="boxx">
+                    <div class="img"></div>
+                    <p>网站建设开发</p>
+                </div>
+                <div class="boxx">
+                    <div class="img"></div>
+                    <p>网站建设开发</p>
+                </div>
+                <div class="boxx">
+                    <div class="img"></div>
+                    <p>网站建设开发</p>
+                </div>
+                <div class="boxx">
+                    <div class="img"></div>
+                    <p>网站建设开发</p>
+                </div>
+                <div class="boxx">
+                    <div class="img"></div>
+                    <p>网站建设开发</p>
+                </div>
+            </div>
+            <div class="border">
+                <h4>优化&推广</h4>
+                <p>拥有网站后，最重要的便是优化和推广，在这方面，我们拥有非常优秀的战略伙伴，帮您完成网站优化与推广这项能为您带来无限商机的重要服务——推广，创造商机！</p>
+                <a href="javascript:;">
+                    详细介绍
+                    <img src="yun1.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="box6">
+        <div class="boxinner6">
+            <div class="anli">
+                <a href="">案例展示
+                    <span>Case Show
+                         <img src="tuoyuan.png" alt="">
+                    </span>
+                </a>
+            </div>
+            <div class="tubox">
+                <img src="" alt="">
+                <p>爱达荷大学</p>
+            </div>
+            <div class="tubox">
+                <img src="" alt="">
+                <p>爱达荷大学</p>
+            </div>
+            <div class="tubox">
+                <img src="" alt="">
+                <p>爱达荷大学</p>
+            </div>
+            <div class="tubox">
+                <img src="" alt="">
+                <p>爱达荷大学</p>
+            </div>
+            <div class="tubox">
+                <img src="" alt="">
+                <p>爱达荷大学</p>
+            </div>
+            <div class="tubox">
+                <img src="" alt="">
+                <p>爱达荷大学</p>
+            </div>
+        </div>
+    </div>
+    <div class="box7">
+        <div class="boxinner7">
+            <div class="xinwen">
+                <a href="">新闻中心
+                    <span>News center </span>
+                    <img src="tuoyuan.png" alt="">
+                </a>
+            </div>
+            <div class="hangye">
+               <ul>行业资讯
+                   <b>Industry information
+                       <span>more +</span>
+                   </b>
+                   <li>为何程序员都爱熬夜？为什么喜欢夜间工作？             [2015/03/12]</li>
+                   <li>为何程序员都爱熬夜？为什么喜欢夜间工作？             [2015/03/12]</li>
+                   <li>为何程序员都爱熬夜？为什么喜欢夜间工作？             [2015/03/12]</li>
+                   <li>为何程序员都爱熬夜？为什么喜欢夜间工作？             [2015/03/12]</li>
+                   <li>为何程序员都爱熬夜？为什么喜欢夜间工作？             [2015/03/12]</li>
+                   <li>为何程序员都爱熬夜？为什么喜欢夜间工作？             [2015/03/12]</li>
+                   <li>为何程序员都爱熬夜？为什么喜欢夜间工作？             [2015/03/12]</li>
+                   <li>为何程序员都爱熬夜？为什么喜欢夜间工作？             [2015/03/12]</li>
+                   <li>为何程序员都爱熬夜？为什么喜欢夜间工作？             [2015/03/12]</li>
+                   <li>为何程序员都爱熬夜？为什么喜欢夜间工作？             [2015/03/12]</li>
+               </ul>
+            </div>
+            <div class="hangye">
+                <ul>最新动态
+                    <b>Dynamic news
+                        <span>more +</span>
+                    </b>
+                    <li>无比网络2015年“清明节”放假通知                                 [2015/03/12]</li>
+                    <li>无比网络2015年“清明节”放假通知                                 [2015/03/12]</li>
+                    <li>无比网络2015年“清明节”放假通知                                 [2015/03/12]</li>
+                    <li>无比网络2015年“清明节”放假通知                                 [2015/03/12]</li>
+                    <li>无比网络2015年“清明节”放假通知                                 [2015/03/12]</li>
+                    <li>无比网络2015年“清明节”放假通知                                 [2015/03/12]</li>
+                    <li>无比网络2015年“清明节”放假通知                                 [2015/03/12]</li>
+                    <li>无比网络2015年“清明节”放假通知                                 [2015/03/12]</li>
+                    <li>无比网络2015年“清明节”放假通知                                 [2015/03/12]</li>
+                    <li>无比网络2015年“清明节”放假通知                                 [2015/03/12]</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="box8">
+        <div class="boxinner8">
+            <div class="liang">
+                <p>
+                    <span>合作伙伴</span>
+                </p>
+            </div>
+            <img src="" alt="">
+        </div>
+    </div>
+    <div class="box9">
+        <div class="boxinner9">
+            <p>版权所有 Copyright ©2013-2014 武汉无比网络科技有限公司 wubinet.com All Rights Reserved  网站备案号：鄂ICP备14000102号</p>
+            <p>咨询热线：400-996-9927  E-mail：wubinet@qq.com  地址：武汉市武昌区中南路10号鹏程时代1216室</p>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
